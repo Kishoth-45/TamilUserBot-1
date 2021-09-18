@@ -7,10 +7,10 @@ from userbot.utils import admin_cmd
 from userbot.uniborgConfig import Config
 from userbot import ALIVE_NAME, CMD_HELP
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "TamilUserBot"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "KHILADI KISHOTH"
 
 PM_IMG = Config.ALIVE_IMAGE
-pm_caption = "🤖 **тαмιℓвσт ιѕ:** `ᴏɴʟɪɴᴇ`\n\n"
+pm_caption = "🤖 **Kishoth ιѕ:** `ᴏɴʟɪɴᴇ`\n\n"
 pm_caption += "⨠ **ѕуѕтємѕ ѕтαтѕ 💻:**\n"
 pm_caption += "⨠ **тєℓєтнση νєяѕιση :** `1.15.0` \n"
 pm_caption += "⨠ **ρутнση :** `3.7.4` \n"
@@ -21,7 +21,7 @@ pm_caption += f"⨠ **му вσѕѕ** : {DEFAULTUSER} \n\n"
 # pm_caption += "⨠ **Heroku Database** : `AWS -\nWorking Properly`💥\n\n"
 # pm_caption += "⫸ **License** : [MIT License](github.com/ivetri/tamilbot/blob/master/LICENSE) ✔\n"
 # pm_caption += "⫸ **Copyrights** : © By [TAMIL🤖BOT](https://github.com/IVETRI/TamilBot) 👨🏻‍💻\n\n"
-pm_caption += "•☆•»»**[🇮🇳 тαмιℓвσтѕ 🇮🇳]**(https://t.me/TamilBots)««•☆•"
+pm_caption += "•☆•»»**[🇮🇳 Khiladibot 🇮🇳]**(https://t.me/Tamil_Chat_Empire)««•☆•"
 
 
 @borg.on(admin_cmd(pattern=r"alive"))
