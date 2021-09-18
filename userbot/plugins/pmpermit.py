@@ -19,13 +19,13 @@ DEFAULTUSER = (
 
 PMPERMIT_PIC = os.environ.get("PMPERMIT_PIC", None)
 if PMPERMIT_PIC is None:
-    WARN_PIC = "https://telegra.ph/file/cb72a96f40d9026e3341d.jpg"
+    WARN_PIC = "https://telegra.ph/file/7b48a10eaf5800dc92141.jpg"
 else:
     WARN_PIC = PMPERMIT_PIC
 
 FAV_NAME = os.environ.get("FAV_NAME", None)
 if FAV_NAME is None:
-    FAV_NAME = "Tamil UserBot"
+    FAV_NAME = "Kishoth UserBot"
 
 PM_WARNS = {}
 PREV_REPLY_MESSAGE = {}
@@ -33,12 +33,12 @@ myid = bot.uid
 CUSTOM_MIDDLE_PMP = (
     str(CUSTOM_PMPERMIT)
     if CUSTOM_PMPERMIT
-    else "நான் உங்களைப் போலல்லாமல் ஒரு Busy-யான மனிதர்!😁😅"
+    else "𝐇𝐞𝐲 𝐈 𝐀𝐦 ★᭄ꦿ᭄ꦿKɦ¡ℒαð¡ K¡₷ɦℴՇɦ★᭄ꦿ᭄ꦿ➻❥\n\n𝐈 𝐀𝐦 𝐂𝐨𝐦𝐢𝐧𝐠 𝐅𝐨𝐫 𝐘𝐨𝐮 𝐖𝐚𝐢𝐭 𝐅𝐞𝐰 𝐌𝐢𝐧𝐮𝐭𝐞𝐬 🥳🥰\n\n𝐃𝐨𝐧'𝐭 𝐬𝐩𝐚𝐦 𝐡𝐞𝐫𝐞 😒\n\n𝐁𝐫𝐞𝐚𝐤 𝐓𝐡𝐞 𝐑𝐮𝐥𝐞𝐬 𝐈 𝐖𝐢𝐥𝐥 𝐒𝐡𝐨𝐨𝐭 𝐘𝐨𝐮🧨"
 )
 USER_BOT_NO_WARN = (
         f"**Hello! I AM `{DEFAULTUSER} `\n\n"
         f"{CUSTOM_MIDDLE_PMP}\n\n"      
-        f"**👮‍♂️ᴘʀᴏᴛᴇᴄᴛᴇᴅ ʙʏ [ᴛᴀᴍɪʟʙᴏᴛꜱ](http://t.me/TamilSupport)👮‍♂️\n\n"
+        f"**Chat Group🧨 [Khiladi Family](http://t.me/Tamil_Chat_Empire)👮‍♂️\n\n"
         f"**Please select an option from the drop down why you’re here!**"
     )
 
@@ -266,7 +266,7 @@ async def hehehe(event):
     chat = await event.get_chat()
     if event.is_private:
         if not pmpermit_sql.is_approved(chat.id):
-            pmpermit_sql.approve(chat.id, "**எனது படைப்பாளர் சிறந்தவர்🔥**")
+            pmpermit_sql.approve(chat.id, "**My Creator is Best🔥**")
             await borg.send_message(
                 chat, "**இந்த பயனர் எனது படைப்பாளி! எனவே, அங்கீகரிக்கப்பட்டது😉!!!**"
             )
