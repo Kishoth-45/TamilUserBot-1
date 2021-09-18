@@ -38,7 +38,7 @@ CUSTOM_MIDDLE_PMP = (
 USER_BOT_NO_WARN = (
         f"**Hello! I AM `{DEFAULTUSER} `\n\n"
         f"{CUSTOM_MIDDLE_PMP}\n\n"      
-        f"**Chat Group🧨 [Khiladi Family](http://t.me/Tamil_Chat_Empire)👮‍♂️\n\n"
+        f"**Chat Group🧨 [Khiladi Family](http://t.me/Tamil_Chat_Empire)🎻\n\n"
         f"**Please select an option from the drop down why you’re here!**"
     )
 
